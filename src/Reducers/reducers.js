@@ -1,4 +1,4 @@
-const intialState = [];
+const intialState = [{ name: "Lord Shiva", surname: "Adiyogi statue" }];
 const counter = (state = intialState, action) => {
   switch (action.type) {
     case "add":
