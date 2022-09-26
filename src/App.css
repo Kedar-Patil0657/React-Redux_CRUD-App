@@ -17,6 +17,7 @@ body {
   border: 2px solid rgb(153, 153, 153);
   border-radius: 20px;
   color: white;
+  padding: 40px 0px 40px 40px;
 }
 .font-size {
   font-weight: 400;
