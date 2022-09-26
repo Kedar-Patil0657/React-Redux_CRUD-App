@@ -20,7 +20,7 @@ const Post = (props) => {
               <p className="body-data">{props.s}</p>
             </div>
             <div className="wrap-for-id-uid mt-5">
-              <div className="id-data">Id : {props.id}</div>
+              <span className="id-data">Id : {props.id}</span>
 
               <Link to={`/edit/${props.id}`} className="btn btn-warning edit">
                 Edit
@@ -35,7 +35,7 @@ const Post = (props) => {
               </button>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 img-wrapped">
             <img src={props.src} alt="Some img here" className="img" />
           </div>
         </div>
