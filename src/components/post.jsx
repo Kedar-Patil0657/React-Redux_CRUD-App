@@ -7,7 +7,7 @@ const Post = (props) => {
   const dispatch = useDispatch();
   return (
     <div className="container container-fluid">
-      <div className="main-wrapper pt-5 pb-5 pl-5 mb-4">
+      <div className="main-wrapper ">
         <div className="row">
           <div className="col-md-8">
             <div className="content-wrap">
