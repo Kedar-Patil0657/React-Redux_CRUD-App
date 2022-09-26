@@ -6,7 +6,7 @@ import { subtract } from "../Action/action";
 const Post = (props) => {
   const dispatch = useDispatch();
   return (
-    <div className="container container-fluid">
+    <div className="container container-fluid mb-5">
       <div className="main-wrapper ">
         <div className="row">
           <div className="col-md-8">
